@@ -1,7 +1,7 @@
 import string
 
 
-def caesar(k, men, abc):
+def cifrar(k, men, abc):
     menEnc = []
     for i in range(0, len(men)):
         for j in range(0, len(abc)):
@@ -19,8 +19,8 @@ if __name__ == '__main__':
     men = input('introduzca mensaje: ')
 
     if opt == 1:
-        print(''.join(caesar(k, men, list(string.ascii_lowercase))))
+        print(''.join(cifrar(k, men, list(string.ascii_lowercase))))
     elif opt == 2:
-        print(''.join(caesar(k, men, list(string.ascii_lowercase)[::-1])))
+        print(''.join(cifrar(k, men, list(string.ascii_lowercase)[::-1])))
     else:
         print('no existe esa opcion')
