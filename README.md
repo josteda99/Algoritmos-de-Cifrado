@@ -1,2 +1,3 @@
 # Algoritmos de Cifrado
-1. [General Info](Ceaser.py)
+1. [PlayFair](playfairCyfher.py)
+2. [Ceaser](Ceaser.py)
