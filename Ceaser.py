@@ -1,3 +1,3 @@
 letra = 'a'
 
-print(int(letra)+3)
+print(letra >> 3)
